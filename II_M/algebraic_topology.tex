@@ -3647,7 +3647,7 @@ The arrows can be put in the following diagram, which is \emph{not} commutative:
     & & D_n & D_{n + 1} \ar [l, "d_{n + 1}"]
   \end{tikzcd}
 \]
-The intuition behind this definition is as follows: suppose $C_{\Cdot} = C_{\Cdot} (K)$ and $D_{\Cdot} = C_{\Cdot}(L)$ for $K, L$ simplicial complexes, and $f_{\Cdot}$ and $g_{\Cdot}$ are ``induced'' by simplicial maps $f, g: K \to L$ (if $f$ maps an $n$-simplex $\sigma$ to a lower-dimensional simplex, then $f_\bullet \sigma = 0$). How can we detect if $f$ and $g$ are homotopic via the homotopy groups?
+The intuition behind this definition is as follows: suppose $C_{\Cdot} = C_{\Cdot} (K)$ and $D_{\Cdot} = C_{\Cdot}(L)$ for $K, L$ simplicial complexes, and $f_{\Cdot}$ and $g_{\Cdot}$ are ``induced'' by simplicial maps $f, g: K \to L$, where by ``induced'' we mean where $n$-simplices are mapped to $k$-simplices for $k<n$, $f_{\Cdot}=0$. How can we detect if $f$ and $g$ are homotopic via the homotopy groups?
 
 Suppose $H: |K| \times I \to |L|$ is a homotopy from $f$ to $g$. We further suppose that $H$ actually comes from a simplicial map $K \times I \to L$ (we'll skim over the technical issue of how we can make $K \times I$ a simplicial complex. Instead, you are supposed to figure this out yourself in example sheet 3).
 
